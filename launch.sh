@@ -2,7 +2,7 @@
 echo $0 $*
 cd $(dirname "$0")
 
-cpuclock performance 2 1200 0
+cpuclock performance 2 1200 300
 
 HOME=/mnt/SDCARD/App/gmu
 export LD_LIBRARY_PATH=./lib:$LD_LIBRARY_PATH
