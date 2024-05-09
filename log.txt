@@ -1,0 +1,67 @@
+2024-05-09 11:52:53 gmu: Detected device: Unknown device
+2024-05-09 11:52:53 gmu: Base directory: /mnt/SDCARD/App/gmu
+2024-05-09 11:52:53 gmu: System config directory: /mnt/SDCARD/App/gmu
+2024-05-09 11:52:53 gmu: Loading configuration gmu.miyoo.conf...
+2024-05-09 11:52:53 reader: Cache size: 512 kB
+2024-05-09 11:52:53 reader: Cache prebuffer size: 256 kB
+2024-05-09 11:52:53 decloader: 5 decoders found.
+2024-05-09 11:52:53 decloader: Loading flac.so was successful.
+2024-05-09 11:52:53 decloader: FLAC_decoder: Name: FLAC decoder v0.6
+2024-05-09 11:52:53 decloader: FLAC_decoder: File extensions: .flac
+2024-05-09 11:52:54 decloader: Loading modplug.so was successful.
+2024-05-09 11:52:54 decloader: modplug_module_decoder: Name: ModPlug module decoder v0.8
+2024-05-09 11:52:54 decloader: modplug_module_decoder: File extensions: .mod;.xm;.it;.669;.s3m;.amf;.ams;.dbm;.dmf;.dsm;.far;.mdl;.med;.mtm;.okt;.ptm;.stm;.ult;.umx;.mt2;.psm;.mid;.midi
+2024-05-09 11:52:54 decloader: Loading mpg123.so was successful.
+2024-05-09 11:52:54 decloader: mpg123_decoder: Name: mpg123 MPEG decoder v1.0
+2024-05-09 11:52:54 decloader: mpg123_decoder: File extensions: .mp3;.mp2;.mp1
+2024-05-09 11:52:54 decloader: Loading opus.so was successful.
+2024-05-09 11:52:54 decloader: opus_decoder: Name: Ogg Opus decoder v0.1
+2024-05-09 11:52:54 decloader: opus_decoder: File extensions: .opus
+2024-05-09 11:52:54 decloader: Loading speex.so was successful.
+2024-05-09 11:52:54 decloader: speex_decoder: Name: Speex decoder v0.1
+2024-05-09 11:52:54 decloader: speex_decoder: File extensions: .spx
+2024-05-09 11:52:54 gmu: Loading playlist from '/mnt/SDCARD/App/gmu/.local/share/gmu/playlist.m3u'.
+2024-05-09 11:52:54 m3u: Extended playlist found.
+2024-05-09 11:52:54 gmu: Playlist length: 1 items
+2024-05-09 11:52:54 feloader: 4 frontends found.
+2024-05-09 11:52:54 feloader: Loading gmuhttp.so was successful.
+2024-05-09 11:52:54 httpd: Starting server on port 4680.
+2024-05-09 11:52:54 feloader: web_frontend: Name: Gmu HTTP server frontend v0.1
+2024-05-09 11:52:54 httpd: Listening on ALL available interfaces.
+2024-05-09 11:52:54 httpd: Webserver root directory: /mnt/SDCARD/App/gmu
+2024-05-09 11:52:54 logbot: Logging has been disabled.
+2024-05-09 11:52:54 feloader: Loading log.so was unsuccessful.
+2024-05-09 11:52:54 feloader: libgio-2.0.so.0: cannot open shared object file: No such file or directory
+2024-05-09 11:52:54 feloader: Loading notify.so was unsuccessful.
+2024-05-09 11:52:54 inputconfig: Initializing. Loading /mnt/SDCARD/App/gmu/gmuinput.miyoo.conf
+2024-05-09 11:52:54 inputconfig: Init done.
+[SDL2] Build May  8 2024 15:36:40
+[SDL2] Set OpenGL ES v2.0
+[SDL2] A30_VideoInit
+[SDL2] fb_mem 0xb4f73000
+[SDL2] gl_mem 0xb4de2008
+2024-05-09 11:52:54 sdl_frontend: Unable to determine screen resolution.
+2024-05-09 11:52:54 sdl_frontend: Initializing screen with 1280x720 pixels (fullscreen = 1).
+[SDL2] Disabled Screen Rotation Helper
+[SDL2] Created EGL Surface successfully
+2024-05-09 11:52:54 sdl_frontend: SDL-Video init done.
+2024-05-09 11:52:54 sdl_frontend: Display surface initialized.
+2024-05-09 11:52:54 feloader: Loading sdl.so was successful.
+2024-05-09 11:52:54 feloader: SDL_frontend: Name: Gmu SDL frontend v0.9
+2024-05-09 11:52:54 keymap: Key map "/mnt/SDCARD/App/gmu/miyoo.keymap" loaded successfully.
+2024-05-09 11:52:54 skin: Modern theme file format found.
+2024-05-09 11:52:54 fileplayer: File player thread initialized.
+2024-05-09 11:52:54 skin: Skin data loaded successfully.
+2024-05-09 11:53:01 gmu: Shutting down...
+2024-05-09 11:53:01 sdl_frontend: Saving settings...
+2024-05-09 11:53:01 gmu: Unloading frontends...
+[SDL2] A30_VideoQuit
+2024-05-09 11:53:01 sdl_frontend: All done.
+2024-05-09 11:53:01 gmu: Unloading frontends done.
+2024-05-09 11:53:01 fileplayer: WARNING: Zero length filename detected!
+2024-05-09 11:53:01 fileplayer: Uh, no proper filename set. Not starting playback!
+2024-05-09 11:53:01 gmu: Saving playlist...
+2024-05-09 11:53:01 gmu: Playlist file: /mnt/SDCARD/App/gmu/.local/share/gmu/playlist.m3u
+2024-05-09 11:53:01 gmu: Saving settings...
+2024-05-09 11:53:01 gmu: Unloading decoders...
+2024-05-09 11:53:01 gmu: Shutdown complete.
